@@ -1,6 +1,5 @@
 package com.tomo.tvpetclinic.services.map;
 
-import javax.persistence.SecondaryTable;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;

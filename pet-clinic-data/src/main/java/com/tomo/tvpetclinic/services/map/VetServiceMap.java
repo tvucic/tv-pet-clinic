@@ -1,12 +1,11 @@
 package com.tomo.tvpetclinic.services.map;
 
-import com.tomo.tvpetclinic.model.Pet;
 import com.tomo.tvpetclinic.model.Vet;
-import com.tomo.tvpetclinic.services.CrudService;
+import com.tomo.tvpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long>
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService
 {
     @Override
     public Set<Vet> findAll() {
