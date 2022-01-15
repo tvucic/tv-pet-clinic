@@ -2,9 +2,11 @@ package com.tomo.tvpetclinic.services.map;
 
 import com.tomo.tvpetclinic.model.Vet;
 import com.tomo.tvpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService
 {
     @Override

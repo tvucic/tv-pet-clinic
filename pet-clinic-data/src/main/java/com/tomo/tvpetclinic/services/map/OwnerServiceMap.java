@@ -2,9 +2,11 @@ package com.tomo.tvpetclinic.services.map;
 
 import com.tomo.tvpetclinic.model.Owner;
 import com.tomo.tvpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService
 {
     @Override
