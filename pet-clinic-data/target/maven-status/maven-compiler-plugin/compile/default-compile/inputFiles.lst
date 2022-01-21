@@ -1,0 +1,14 @@
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/model/Vet.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/services/map/OwnerServiceMap.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/services/CrudService.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/model/PetType.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/services/OwnerService.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/services/PetService.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/model/Person.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/model/Pet.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/model/BaseEntity.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/services/VetService.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/services/map/AbstractMapService.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/model/Owner.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/services/map/VetServiceMap.java
+/home/tomo/dev/spring5/tv-pet-clinic/pet-clinic-data/src/main/java/com/tomo/tvpetclinic/services/map/PetServiceMap.java

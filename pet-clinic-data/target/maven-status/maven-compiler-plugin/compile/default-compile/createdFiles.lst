@@ -1,0 +1,14 @@
+com/tomo/tvpetclinic/services/PetService.class
+com/tomo/tvpetclinic/services/CrudService.class
+com/tomo/tvpetclinic/model/PetType.class
+com/tomo/tvpetclinic/services/map/OwnerServiceMap.class
+com/tomo/tvpetclinic/model/Owner.class
+com/tomo/tvpetclinic/services/map/PetServiceMap.class
+com/tomo/tvpetclinic/services/VetService.class
+com/tomo/tvpetclinic/services/map/VetServiceMap.class
+com/tomo/tvpetclinic/services/map/AbstractMapService.class
+com/tomo/tvpetclinic/services/OwnerService.class
+com/tomo/tvpetclinic/model/Pet.class
+com/tomo/tvpetclinic/model/Vet.class
+com/tomo/tvpetclinic/model/Person.class
+com/tomo/tvpetclinic/model/BaseEntity.class

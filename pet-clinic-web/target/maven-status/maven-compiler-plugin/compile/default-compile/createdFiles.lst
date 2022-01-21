@@ -1,0 +1,5 @@
+com/tomo/tvpetclinic/TvPetClinicApplication.class
+com/tomo/tvpetclinic/bootstrap/DataLoader.class
+com/tomo/tvpetclinic/controllers/OwnerController.class
+com/tomo/tvpetclinic/controllers/IndexController.class
+com/tomo/tvpetclinic/controllers/VetController.class
