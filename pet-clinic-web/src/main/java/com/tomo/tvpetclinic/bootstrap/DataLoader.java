@@ -1,11 +1,11 @@
 package com.tomo.tvpetclinic.bootstrap;
 
 import com.tomo.tvpetclinic.model.Owner;
+import com.tomo.tvpetclinic.model.PetType;
 import com.tomo.tvpetclinic.model.Vet;
 import com.tomo.tvpetclinic.services.OwnerService;
+import com.tomo.tvpetclinic.services.PetTypeService;
 import com.tomo.tvpetclinic.services.VetService;
-import com.tomo.tvpetclinic.services.map.OwnerServiceMap;
-import com.tomo.tvpetclinic.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -15,16 +15,27 @@ public class DataLoader implements CommandLineRunner
 
     private final OwnerService ownerService;
     private final VetService vetService;
+    private final PetTypeService petTypeService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService)
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService)
     {
         this.ownerService = ownerService;
         this.vetService = vetService;
+        this.petTypeService = petTypeService;
     }
 
     @Override
     public void run(String... args) throws Exception
     {
+
+        PetType dog = new PetType();
+        dog.setName("Dog");
+        PetType savedDogPetType = petTypeService.save(dog);
+
+        PetType cat = new PetType();
+        cat.setName("Cat");
+        PetType savedCatPetType = petTypeService.save(cat);
+
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
